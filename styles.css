@@ -4,8 +4,14 @@
   padding: 0;
 }
 
+
+
 video {
   max-width: 100%;
+  object-fit: cover;
+  box-shadow: 10px 20px 15px silver;
+	border-radius: 20px;
+
 }
 
 h1 {
@@ -26,6 +32,7 @@ ul li {
 
 a {
   text-decoration: none;
+
 }
 
 .logo {
@@ -44,6 +51,10 @@ a {
   
 }
 
+.header {
+  background-color: #1F2937;
+}
+
 .boxes {
   min-height: 250px;
 }
@@ -58,4 +69,27 @@ a {
   color: black;
   font-weight: 300;
   font-style: italic;
+}
+
+.navbar .container {
+  max-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav {
+  display: flex;
+  gap: 20px
+}
+
+.header .container {
+display: flex;
+max-height: 500px;
+
+}
+
+.boxes  {
+  border: 2px solid black;
 }
