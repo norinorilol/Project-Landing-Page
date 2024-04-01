@@ -4,8 +4,58 @@
   padding: 0;
 }
 
+video {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+ul li {
+  font-size: 18px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;  
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 30px;
+}
+
+.navbar {
+  background-color: #1F2937;
+  
+}
+
+.boxes {
+  min-height: 250px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  min-height: 250px;
+}
+
+.quote p {
+  font-size: 30px;
+  color: black;
+  font-weight: 300;
+  font-style: italic;
 }
