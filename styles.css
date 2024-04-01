@@ -1,15 +1,23 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "oswald";
+  
 }
 
+img {
+  border-radius: 30px 30px;
+  box-shadow: 10px 10px 10px rgb(0, 3, 22);
+  height: 120px
+}
 
 
 video {
   max-width: 100%;
   object-fit: cover;
-  box-shadow: 10px 20px 15px silver;
+  box-shadow: 10px 10px 10px rgb(0, 3, 22);
 	border-radius: 20px;
 
 }
@@ -38,6 +46,7 @@ a {
 .logo {
   font-size: 24px;
   color: #F9FAF8;  
+
 }
 
 .container {
@@ -48,6 +57,7 @@ a {
 
 .navbar {
   background-color: #1F2937;
+  min-height: 100px;
   
 }
 
@@ -56,12 +66,12 @@ a {
 }
 
 .boxes {
-  min-height: 250px;
+  min-height: 350px;
 }
 
 .quote {
   background-color: #E5E7EB;
-  min-height: 250px;
+  min-height: 350px;
 }
 
 .quote p {
@@ -72,7 +82,7 @@ a {
 }
 
 .navbar .container {
-  max-height: 80px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,10 +96,20 @@ a {
 
 .header .container {
 display: flex;
-max-height: 500px;
+max-height: 800px;
 
 }
 
 .boxes  {
   border: 2px solid black;
 }
+
+.sign-up {
+  min-height: 280px;
+}
+
+.footer {
+  min-height: 20px;
+  border: 2px solid black
+}
+
