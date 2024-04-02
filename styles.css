@@ -7,6 +7,12 @@
   
 }
 
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  * {
+    flex-direction: column; /* Stack items vertically */
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+}
 
 img {
   
